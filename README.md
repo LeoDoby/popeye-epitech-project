@@ -10,4 +10,4 @@ the Worker.
 - The Worker, a Java application which consumes the votes being in the Redis queue, and stores them into
 a PostgreSQL database.
 - A PostgreSQL database, which (persistently) stores the votes stored by the Worker.
-- Result, a Node.js web application that fetches the votes from the database and displays the. . . well, result. ;)
+- Result, a Node.js web application that fetches the votes from the database and displays the result.
